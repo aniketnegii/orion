@@ -1,0 +1,42 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{ 
+	border:
+	width: 800px;
+	position: absolute;
+    left: 50%;
+    margin-left: -30%;
+}
+
+header{
+	overflow: hidden;
+	display: inline-block;
+	text-transform: uppercase;
+	position: fixed;
+    width: 1180px;
+	left: 50%;
+	right: 50%;
+	transform: translate(-50%,0%);
+	border: solid;
+}
+
+.photo{
+	padding: 200px 600px;
+	overflow: hidden;
+	background-image:linear-gradient(rgba(10, 5, 15, 0.4), rgba(10, 5, 15, 0.4)),url(../photos/9811.jpg) ;
+	background-size: cover;
+    background-repeat: no-repeat ;
+    background-position: center;
+    max-width: 10%;
+    max-height: 10%;
+   
+}
+
+.content{
+	margin-top: 500px;
+	text-align: center;
+}
